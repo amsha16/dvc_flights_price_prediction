@@ -1,0 +1,6 @@
+plots:
+- dvclive/plots/custom/customer_count_by_airline.json:
+    template: bar_horizontal
+    x: counts
+    y: airline
+    title: Customer Count by Airline
