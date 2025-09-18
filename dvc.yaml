@@ -1,0 +1,12 @@
+plots:
+- scatter_plots/plots/custom/duration_vs_price.json:
+    template: scatter
+    x: duration
+    y: price
+    title: Duration vs. Price
+- scatter_plots/plots/custom/days_left_vs_price.json:
+    template: scatter
+    x: days_left
+    y: price
+    title: Days Left vs. Price
+- dvclive/plots/images
