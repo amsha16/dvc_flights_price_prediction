@@ -1,0 +1,26 @@
+plots:
+- scatter_plots/plots/custom/duration_vs_price.json:
+    template: scatter
+    x: duration
+    y: price
+    title: Duration vs. Price
+- scatter_plots/plots/custom/days_left_vs_price.json:
+    template: scatter
+    x: days_left
+    y: price
+    title: Days Left vs. Price
+- dvclive/plots/images
+- linear_regression/plots/metrics:
+    x: step
+params:
+- linear_regression/params.yaml
+metrics:
+- linear_regression/metrics.json
+artifacts:
+  flightprices:
+    path: data/flights_price_data.csv
+    type: dataset
+    desc: Flights price prediction dataset
+    labels:
+    - regression
+    - prices
