@@ -1,0 +1,31 @@
+plots:
+- dvclive/plots/custom/customer_count_by_airline.json:
+    template: bar_horizontal
+    x: counts
+    y: airline
+    title: Customer Count by Airline
+- dvclive/plots/custom/avg_ticket_price_by_airline.json:
+    template: bar_horizontal
+    x: price
+    y: airline
+    title: Average Ticket Price by Airline
+- dvclive/plots/custom/avg_ticket_price_by_class.json:
+    template: bar_horizontal
+    x: price
+    y: class
+    title: Average Ticket Price by Class
+- dvclive/plots/custom/avg_ticket_price_by_stops.json:
+    template: bar_horizontal
+    x: price
+    y: stops
+    title: Average Ticket Price by Number of Stops
+- dvclive/plots/custom/duration_vs_price.json:
+    template: scatter
+    x: duration
+    y: price
+    title: Duration vs. Price
+- dvclive/plots/custom/days_left_vs_price.json:
+    template: scatter
+    x: days_left
+    y: price
+    title: Days Left vs. Price
