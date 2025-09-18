@@ -1,0 +1,26 @@
+[
+    {
+        "airline": "Vistara",
+        "counts": 127859
+    },
+    {
+        "airline": "Air_India",
+        "counts": 80892
+    },
+    {
+        "airline": "Indigo",
+        "counts": 43120
+    },
+    {
+        "airline": "GO_FIRST",
+        "counts": 23173
+    },
+    {
+        "airline": "AirAsia",
+        "counts": 16098
+    },
+    {
+        "airline": "SpiceJet",
+        "counts": 9011
+    }
+]
