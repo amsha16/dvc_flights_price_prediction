@@ -1,4 +1,13 @@
 plots:
+- knn_regression/plots/metrics:
+    x: step
+- rf_regression/plots/metrics:
+    x: step
+- rf_regression/plots/custom/predicted_vs_actual_price.json:
+    template: scatter
+    x: actual
+    y: predicted
+    title: Predicted price vs. Actual price
 - scatter_plots/plots/custom/duration_vs_price.json:
     template: scatter
     x: duration
@@ -12,23 +21,14 @@ plots:
 - dvclive/plots/images
 - linear_regression/plots/metrics:
     x: step
-- knn_regression/plots/metrics:
-    x: step
-- rf_regression/plots/metrics:
-    x: step
-- rf_regression/plots/custom/predicted_vs_actual_price.json:
-    template: scatter
-    x: actual
-    y: predicted
-    title: Predicted price vs. Actual price
 params:
-- linear_regression/params.yaml
 - knn_regression/params.yaml
 - rf_regression/params.yaml
+- linear_regression/params.yaml
 metrics:
-- linear_regression/metrics.json
 - knn_regression/metrics.json
 - rf_regression/metrics.json
+- linear_regression/metrics.json
 artifacts:
   flightprices:
     path: data/airline_price_data.csv
