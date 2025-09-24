@@ -1,15 +1,4 @@
 plots:
-- scatter_plots/plots/custom/duration_vs_price.json:
-    template: scatter
-    x: duration
-    y: price
-    title: Duration vs. Price
-- scatter_plots/plots/custom/days_left_vs_price.json:
-    template: scatter
-    x: days_left
-    y: price
-    title: Days Left vs. Price
-- dvclive/plots/images
 - linear_regression/plots/metrics:
     x: step
 - knn_regression/plots/metrics:
@@ -21,6 +10,17 @@ plots:
     x: actual
     y: predicted
     title: Predicted price vs. Actual price
+- scatter_plots/plots/custom/duration_vs_price.json:
+    template: scatter
+    x: duration
+    y: price
+    title: Duration vs. Price
+- scatter_plots/plots/custom/days_left_vs_price.json:
+    template: scatter
+    x: days_left
+    y: price
+    title: Days Left vs. Price
+- dvclive/plots/images
 params:
 - linear_regression/params.yaml
 - knn_regression/params.yaml
